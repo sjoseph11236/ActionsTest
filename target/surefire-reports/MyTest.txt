@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: MyTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.097 s <<< FAILURE! - in MyTest
+test  Time elapsed: 0.064 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/sun/tools/internal/ws/wsdl/parser/Util
+	at MyTest.test(MyTest.java:9)
+Caused by: java.lang.ClassNotFoundException: com.sun.tools.internal.ws.wsdl.parser.Util
+	at MyTest.test(MyTest.java:9)
+
